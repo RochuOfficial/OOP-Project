@@ -30,30 +30,30 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
 ```bash
-    git clone https://github.com/RochuOfficial/OOP-Project.git
-    cd LearningCenter
+git clone https://github.com/RochuOfficial/OOP-Project.git
+cd LearningCenter
   ```
 
 2. Build a build directory:
 ```bash
-    mkdir build && cd build
+mkdir build && cd build
 ```
 
 3. Configure the project with CMake:
 ```bash
-    cmake ..
+cmake ..
 ```
 
 4. Build the project:
 ```bash
-    cmake --build .
+cmake --build .
 ```
 
 ### Running Tests
 To run the unit tests (using Boost.Test):
 ```bash
-    cd build
-    ctest
+cd build
+ctest
 ```
 
 ## Project Structure
